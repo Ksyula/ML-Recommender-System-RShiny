@@ -1,0 +1,23 @@
+/******************************************************************************/
+/* Make the sidebar wider so it can contain the select inputs */
+
+.main-sidebar{ width: 300px; }
+.main-header > .navbar { margin-left: 300px; }
+.main-header .logo { width: 300px; }
+.content-wrapper, .main-footer, .right-side { margin-left: 300px; }
+
+.sidebar-collapse .left-side, .sidebar-collapse .main-sidebar {
+  -webkit-transform: translate(-300px,0);
+  -ms-transform: translate(-300px,0);
+  -o-transform: translate(-300px,0);
+  transform: translate(-300px,0);
+}
+
+
+/******************************************************************************/
+/* Add spacing before tabsetpanel in sidebar */
+
+.sidebar .sidebar-menu .tabbable {
+  margin-top: 10px;
+}
+
