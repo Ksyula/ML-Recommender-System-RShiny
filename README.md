@@ -1,4 +1,4 @@
-# Rule-based Recommender 
+# Rule-based Recommender System
 
 This is a prototype of Recommender System to recommend loyalty cards to customers.
 
