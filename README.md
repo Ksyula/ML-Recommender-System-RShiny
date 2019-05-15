@@ -9,6 +9,6 @@ To build recommendations the system use Apriori algorithm for frequent item set 
 
 Dataset for this project is randomly generated relationships between customers and loyalty cards of brands.
 
-<a href="https://ksenia-l.shinyapps.io/shinydev/">Play with the prototype!</a>.
+<a href="https://ksenia-l.shinyapps.io/shinydev/">Play with the prototype!</a>
 
 The link is available until 15 Apr. 2019.
