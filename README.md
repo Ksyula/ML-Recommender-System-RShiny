@@ -3,7 +3,7 @@
 This is a prototype of Recommender System to recommend loyalty cards to customers.
 
 Assume the case where customers have some loyalty cards of different brands in their wallets.
-Customer 1 has cards of brands **A, B, C, D, E** whereas customer 2 has cards of **A, B, C, D**. The Recommender System will recommend to customer 2 to consider the possibility of getting the loyalty card of the brand **E** because he has a similar taste on brands with customer 1 based on the similarity of their wallets' content." ),
+Customer 1 has cards of brands **A, B, C, D, E** whereas customer 2 has cards of **A, B, C, D**. Customer 2 is better to consider the possibility of getting the loyalty card of the brand **E** because some other customers have a similar taste on brands. The system will recommend **E** to customer 2 provided that a sufficient number of other customers have already had similar loyalty cards including **E** in their wallets.
 
 To build recommendations the system use Apriori algorithm for frequent item set mining and association rule learning. 
 
